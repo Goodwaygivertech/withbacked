@@ -1,0 +1,16 @@
+mongodb+srv://goodwaygiverlearnNodejs:NUcaq0Q2hPzT3RFB@cluster0.kasemej.mongodb.net/?retryWrites=true&w=majority
+
+
+goodwaygiverlearnNodejs
+
+NUcaq0Q2hPzT3RFB
+
+mongodb+srv://goodwaygiverlearnNodejs:NUcaq0Q2hPzT3RFB@cluster0.kasemej.mongodb.net/
+
+
+mongodb://goodwaygiverlearnNodejs:NUcaq0Q2hPzT3RFB@ac-qfoyg0y-shard-00-00.kasemej.mongodb.net:27017,ac-qfoyg0y-shard-00-01.kasemej.mongodb.net:27017,ac-qfoyg0y-shard-00-02.kasemej.mongodb.net:27017/?ssl=true&replicaSet=atlas-4xaqen-shard-0&authSource=admin&retryWrites=true&w=majority
+
+
+
+4.1
+mongodb+srv://goodwaygiverlearnNodejs:@cluster0.kasemej.mongodb.net/?retryWrites=true&w=majority
