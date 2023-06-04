@@ -1,7 +1,9 @@
+require("dotenv").config();
 const mongoose = require("mongoose");
 
-const mongoURI =
-  "mongodb://goodwaygiverlearnNodejs:NUcaq0Q2hPzT3RFB@ac-qfoyg0y-shard-00-00.kasemej.mongodb.net:27017,ac-qfoyg0y-shard-00-01.kasemej.mongodb.net:27017,ac-qfoyg0y-shard-00-02.kasemej.mongodb.net:27017/AllProduct?ssl=true&replicaSet=atlas-4xaqen-shard-0&authSource=admin&retryWrites=true&w=majority";
+
+
+const mongoURI = process.env.MONGO_URI
 const connectToMongo = () => {
   mongoose
     .connect(mongoURI)

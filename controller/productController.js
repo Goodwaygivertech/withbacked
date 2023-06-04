@@ -6,7 +6,7 @@ exports.createProduct = async (req, res) => {
   try {
     let product = new Product(req.body);
     const savedProduct = await product.save();
-    res.status(201).json({ success: "ho gya success" }, savedProduct);
+    res.status(201).json({ success: "ho gya success", savedProduct });
   } catch (error) {
     res.status(500).send("some internal error occured");
   }
